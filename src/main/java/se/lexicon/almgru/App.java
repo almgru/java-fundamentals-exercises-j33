@@ -17,5 +17,11 @@ public class App {
         String firstName = "Daniel";
         String lastName = "Alm Grundström";
         System.out.println(firstName + " " + lastName);
+
+        /* 3. Create two variables with decimal values. Create a third decimal variable called result. Assign the sum of
+         * the two first variables to result. */
+        double value1 = 1.2;
+        double value2 = 2.3;
+        double result = value1 + value2;
     }
 }
