@@ -23,5 +23,21 @@ public class App {
         double value1 = 1.2;
         double value2 = 2.3;
         double result = value1 + value2;
+
+        // 4b. Instantiate an Object of the class and assign values to the object.
+        Car car = new Car();
+        car.brand = "Volvo";
+        car.registrationNumber = "ABC123";
+        car.maxSpeed = 140;
+        car.ownerName = "Daniel";
     }
+}
+
+/* 4a. Create a class called Car. The class should contain the following information. Car brand, registration number,
+ * max speed and owner name.*/
+class Car {
+    String brand;
+    String registrationNumber;
+    int maxSpeed;
+    String ownerName;
 }
