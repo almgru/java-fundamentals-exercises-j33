@@ -30,6 +30,17 @@ public class App {
         car.registrationNumber = "ABC123";
         car.maxSpeed = 140;
         car.ownerName = "Daniel";
+
+        /* 5. Make an integer called score and assign a value to it. Create an if–else statement that should print out
+         * ”you passed ”if the score is above or equals to 65. If score is below 65 it should print ”you did not pass”.
+         */
+        int score = 65;
+
+        if (score >= 65) {
+            System.out.println("you passed");
+        } else {
+            System.out.println("you did not pass");
+        }
     }
 }
 
